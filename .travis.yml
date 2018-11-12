@@ -21,14 +21,14 @@ after_success:
   - docker push peelmicro/dotnet-core-multi-server
   - docker push peelmicro/dotnet-core-multi-worker
 #deploy:
-#  provider: elasticbeanstalk
-#  region: "us-east-1"
-#  app: "muti-docker"
-#  env: "MutiDocker-env"
-#  bucket_name: "elasticbeanstalk-us-east-1-972569889348"
-#  #bucket_path: ""
-#  on:
-#    branch: "master"
-#  access_key_id: $AWS_ACCESS_KEY
-#  secret_access_key:
-#    secure: "$AWS_SECRET_KEY"
+  provider: elasticbeanstalk
+  region: "us-east-1"
+  app: "dotnet-core-muti-docker"
+  env: "DotnetCoreMutiDocker-env"
+  bucket_name: "elasticbeanstalk-us-east-1-972569889348"
+  #bucket_path: ""
+  on:
+    branch: "master"
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: "$AWS_SECRET_KEY"
