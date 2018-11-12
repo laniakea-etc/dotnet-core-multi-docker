@@ -1,0 +1,13 @@
+/Server/bin
+/Server/obj
+/Server/.vs
+/Server/.vscode
+/Server/Properties
+/.vscode
+/Worker/.vs
+/Worker/.vscode
+/Worker/bin
+/Worker/obj
+/client/node_modules
+/Server/Server.sln.DotSettings.user
+Server/Server.csproj.user
