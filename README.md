@@ -1,10 +1,8 @@
-# .Net Core version of the "Docker and Kubernetes: The Complete Guide" course - Complex solution (multi Docker containers)
+## .Net Core version of the "Docker and Kubernetes: The Complete Guide" course - Complex solution (multi Docker containers)
 
 > source code for the .Net Core version of the "Docker and Kubernetes: The Complete Guide" course - Complex solution (multi Docker containers)
 
-## Build Setup
-
-## execute it locally
+## Execute it locally
 
 $ docker-compose up --build
 
