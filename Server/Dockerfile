@@ -8,5 +8,5 @@ RUN dotnet restore
 # copy and build everything else
 COPY . ./
 RUN dotnet publish -c Release -o out
-
+EXPOSE 5000
 ENTRYPOINT ["dotnet", "out/Server.dll"]
