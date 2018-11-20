@@ -40,8 +40,8 @@ Navigate to http://localhost:3050/
 - Use Docker Compose to run and relate easily different Docker Components
 - Use NIGIX Container to run the React Client App
 - Use NIGIX Container as Reverse Proxy with .NET Core API
-- Work with different Amazon EWS service types.
-- Updload own Containers to Docker Hub and download them when deploying
+- Work with different AWS Amazon service types to deploy a multi container Docker application using AWS Elastic Beanstalk
+- Upload own Containers to Docker Hub and download them with the deployment
 - Use Travis CI for the Continuous Integration Workflow
 
 ## In order to get to know what has been developed follow the course on
