@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: client-deployment
+  name: dotnet-core-client-deployment
 spec:
   replicas: 3
   selector:
@@ -14,6 +14,6 @@ spec:
     spec:
       containers: 
         - name: client
-          image: peelmicro/-multi-client
+          image: peelmicro/dotnet-core-multi-client
           ports: 
             - containerPort: 3000

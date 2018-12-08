@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: worker-deployment
+  name: dotnet-core-worker-deployment
 spec:
   replicas: 1
   selector:
@@ -17,6 +17,6 @@ spec:
           image: peelmicro/dotnet-core-multi-worker
           env:
               - name: REDIS_HOST
-                value: redis-cluster-ip-service
+                value: dotnet-core-redis-cluster-ip-service
               - name: REDIS_PORT
                 value: '6379'

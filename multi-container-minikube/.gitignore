@@ -11,4 +11,3 @@
 /client/node_modules
 /Server/Server.sln.DotSettings.user
 Server/Server.csproj.user
-/service-account.json
