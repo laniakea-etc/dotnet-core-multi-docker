@@ -45,7 +45,7 @@ Navigate to http://localhost:3050/
 2) DOCKER_PASSWORD
 
 ## Within the code you can see how to
-- Create different Docket Container Types and relate all of them
+- Create different Docker Container Types and relate all of them
   1) React Client App
   2) .NET Core Web API
   3) .NET Core Console
